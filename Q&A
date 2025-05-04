@@ -30,3 +30,6 @@ A CSS style file
 9. What is constructor ?
 It is called instance of class is created.
 it is used for simple initialization, like set up dependency injection
+
+10. what is observable?
+an observable is basically a function return the stram of value to observable over time . it can be either synchronous and asynchronously.
