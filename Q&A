@@ -1,3 +1,32 @@
 1. what is Angular-Content ?
 The ng-content directive in Angular is used for content projection, a technique that allows you to insert content from a parent component into a child component.
 Reusability: ng-content enables the creation of reusable components.
+
+2. What is ng-container?
+The <ng-container> element in Angular is a special syntax element that acts as a logical container for grouping elements without adding any extra nodes to the DOM. It's not a directive, component, class, or interface. It's primarily used for applying structural directives like *ngIf, *ngFor, or *ngSwitch without introducing additional HTML elements that might interfere with layout or styling.
+
+3.What is Angular?
+Angular is single page web application
+Angular is a TypeScript-based open-source web application framework developed and maintained by Google.
+
+4.what is standalone?
+In Angular, a standalone component is a new feature introduced in Angular v14 that allows a component to be self-contained — meaning it doesn't require being declared in an NgModule.
+
+5. what is @input in angular?
+Inputs allow components to share data. The direction of the data sharing is from parent component to child component.
+
+6.what is Dependency injection?
+Angular uses an injector to create and inject instances of services or other dependencies into components, directives, pipes, or other services.
+
+7.what is constructor?
+In Angular (and TypeScript), a constructor is a special method used to create and initialize an instance of a class. In Angular components, services, or other classes, it's also used for Dependency Injection — that is, injecting services or other dependencies automatically when the class is created.
+
+8. What is a Component in Angular?
+A component is the building block of an Angular application. It controls a section of the UI and includes:
+An HTML template
+A TypeScript class (with logic)
+A CSS style file
+
+9. What is constructor ?
+It is called instance of class is created.
+it is used for simple initialization, like set up dependency injection
