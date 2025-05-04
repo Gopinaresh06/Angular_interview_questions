@@ -1,0 +1,3 @@
+1. what is Angular-Content ?
+The ng-content directive in Angular is used for content projection, a technique that allows you to insert content from a parent component into a child component.
+Reusability: ng-content enables the creation of reusable components.
