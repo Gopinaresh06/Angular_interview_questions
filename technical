@@ -1,0 +1,31 @@
+String-Based Questions
+1. Reverse a string — without using built-ins.
+let str:string = prompt("enter the string: ");
+let reversed : string = '';
+for(let i:number= str.length - 1 ; i>=0; i--){
+    reversed += str[i]; 
+}
+console.log(reversed)
+
+2. Is it a palindrome? Let's find out.
+
+3. Remove duplicates from a string — efficiently.
+let str: string = "programming";
+let result: string = "";
+
+for (let i: number = 0; i < str.length; i++) {
+  let isDuplicate: boolean = false;
+
+  for (let j: number = 0; j < result.length; j++) {
+    if (str[i] === result[j]) {
+      isDuplicate = true;
+      break;
+    }
+  }
+
+  if (!isDuplicate) {
+    result += str[i];
+  }
+}
+
+console.log(result);  // Output: progamin
