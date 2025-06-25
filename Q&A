@@ -17,6 +17,7 @@ Inputs allow components to share data. The direction of the data sharing is from
 
 6.what is Dependency injection?
 Angular uses an injector to create and inject instances of services or other dependencies into components, directives, pipes, or other services.
+In angular, DI is design pattern and its manages services and other objects into components and other services , it is resuability.
 
 7.what is constructor?
 In Angular (and TypeScript), a constructor is a special method used to create and initialize an instance of a class. In Angular components, services, or other classes, it's also used for Dependency Injection — that is, injecting services or other dependencies automatically when the class is created.
@@ -33,3 +34,6 @@ it is used for simple initialization, like set up dependency injection
 
 10. what is observable?
 an observable is basically a function return the stram of value to observable over time . it can be either synchronous and asynchronously.
+
+11. How do route guards work in angular?
+In Angular, route guards are used to control access to routes — they let you decide whether a user can activate, deactivate, load, or leave a route based on logic like authentication, roles, unsaved changes, etc.
