@@ -37,3 +37,45 @@ an observable is basically a function return the stram of value to observable ov
 
 11. How do route guards work in angular?
 In Angular, route guards are used to control access to routes — they let you decide whether a user can activate, deactivate, load, or leave a route based on logic like authentication, roles, unsaved changes, etc.
+
+12. What is promises and observable ?
+Feature	        Promise             	 Observable
+Emits values	    Once	            Multiple times
+Cancelable	     ❌ No	           ✅ Yes (unsubscribe)
+Lazy execution	 ✅ Yes	           ✅ Yes
+Operators	       ❌ No	           ✅ Yes (via RxJS)
+Use case	One-time async(e.g. fetch API)	Streams, events, real-time data
+
+13. What are Directives in Angular?
+Answer:
+Directives are used to manipulate the DOM.
+Types:
+Structural (change layout): *ngIf, *ngFor
+Attribute (change appearance): [ngClass], [ngStyle]
+Custom: User-defined behavior on elements.
+
+14. What is the difference between ngIf and ngFor?
+Answer:
+*ngIf renders an element conditionally.
+*ngFor renders an element repeatedly for each item in a collection.
+
+15. What is Data Binding in Angular?
+Answer:
+Data binding connects the template and component:
+Interpolation: {{ title }}
+Property binding: [src]="imgUrl"
+Event binding: (click)="onClick()"
+Two-way binding: [(ngModel)]="name"
+
+16.What is a Service in Angular?
+Common uses of Angular Services include:
+Fetching and managing data from APIs.
+Providing shared utility functions (e.g., logging, validation).
+Handling authentication and authorization logic.
+Managing application state that needs to be accessible across multiple components.
+
+17. What is Angular Form?
+Answer:
+Angular supports:
+Template-driven forms: Simpler, uses ngModel
+Reactive forms: More powerful, uses FormGroup, FormControl
