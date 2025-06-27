@@ -79,3 +79,18 @@ Answer:
 Angular supports:
 Template-driven forms: Simpler, uses ngModel
 Reactive forms: More powerful, uses FormGroup, FormControl
+
+18. What is a module in Angular?
+In Angular, module is a container group of related components,  services, directives, pipes etc.
+Every Angular app has at least one root module, AppModule, decorated with @NgModule.
+
+19.What is the purpose of package.json in Angular?
+package.json manages the project dependencies, scripts, and versions of the packages used in the Angular project
+
+20. What is RxJS and how is it used in Angular?
+RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using Observables. It helps manage asynchronous data (e.g., HTTP calls, events).
+
+21. How do you communicate between components?
+Parent to Child - using ( @input)
+Child to Parent  - using (@output)
+
